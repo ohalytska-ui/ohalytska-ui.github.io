@@ -1,0 +1,27 @@
+footer{
+    border-top: solid 1px #e1e1e1;
+    border-bottom: solid 1px #e1e1e1;
+    height: 70px;
+}
+
+.footer_container{
+    @include container();
+    height: 100%;
+    &_row{
+        height: 100%;
+        @include row-flex();
+        @include md(justify-content, space-evenly);
+        @include md(align-items, center);
+        p{
+            cursor: default;
+            font-family: Lato;
+            font-size: 13px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #b5b5b5;
+        }
+    }
+}
