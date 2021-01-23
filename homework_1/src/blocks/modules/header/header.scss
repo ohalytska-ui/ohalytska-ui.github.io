@@ -15,7 +15,11 @@ p{
             height: 100%;
             &_text{
                 @include col();
-                @include size(11);
+                @include size-xl(11);
+                @include size-lg(11);
+                @include size-md(11);
+                @include size-md(11);
+                @include size(9);
                 cursor: default;
                 display: flex;
                 justify-content: center;
@@ -31,7 +35,11 @@ p{
             }
             img{
                 @include col();
-                @include size(1);
+                @include size-xl(1);
+                @include size-lg(1);
+                @include size-md(1);
+                @include size-sm(1);
+                @include size(3);
                 width: 16px;
                 height: 11px;
                 cursor: pointer;
@@ -53,6 +61,10 @@ p{
             height: 100%;
             &_language{
                 @include col();
+                @include size-xl(2);
+                @include size-lg(2);
+                @include size-md(2);
+                @include size-sm(2);
                 @include size(2);
                 display: flex;
                 justify-content: flex-start;
@@ -78,6 +90,10 @@ p{
             &_text{
                 cursor: default;
                 @include col();
+                @include size-xl(7);
+                @include size-lg(7);
+                @include size-md(7);
+                @include size-sm(7);
                 @include size(7);
                 display: flex;
                 justify-content: center;
@@ -98,6 +114,10 @@ p{
             }
             &_button{
                 @include col();
+                @include size-xl(3);
+                @include size-lg(3);
+                @include size-md(3);
+                @include size-sm(3);
                 @include size(3);
                 display: flex;
                 justify-content: flex-end;

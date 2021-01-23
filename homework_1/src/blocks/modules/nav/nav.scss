@@ -13,7 +13,11 @@ nav{
         @include md(align-items, center);
         &_burger{
             @include col();
-            @include size(3);
+            @include size-xl(3);
+            @include size-lg(3);
+            @include size-md(2);
+            @include size-sm(2);
+            @include size(2);
             display: flex;
             justify-content: flex-start;
             align-items: center;
@@ -24,7 +28,11 @@ nav{
         }
         &_menu{
             @include col();
-            @include size(6);
+            @include size-xl(6);
+            @include size-lg(6);
+            @include size-md(8);
+            @include size-sm(8);
+            @include size(7);
             display: flex;
             justify-content: space-around;
             align-items: center;
@@ -50,6 +58,10 @@ nav{
         }
         &_search{
             @include col();
+            @include size-xl(3);
+            @include size-lg(3);
+            @include size-md(2);
+            @include size-sm(2);
             @include size(3);
             display: flex;
             justify-content: flex-end;
